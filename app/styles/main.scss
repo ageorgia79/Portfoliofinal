@@ -1,0 +1,537 @@
+
+
+body {
+    margin: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    color: #000000;
+}
+
+.toolbarButtons {
+    display: inline-block;
+    line-height: 80px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+    a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+    }
+}
+
+.contact {
+    width: 100%;
+    text-align: center;
+}
+
+.toolbarButtonsFirst {
+    margin-left: 30px;
+}
+
+
+.headerimg {
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(http://sspeterandpaulevlutheranchurchuac.org/site/style6130/images/topbar/1.jpg);
+    
+}
+
+
+.nameTitle {
+    display: block;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    margin-top: 70px;
+
+}
+
+.titleEmail {
+    display: inline-block;
+    a {
+        text-decoration: none;
+        margin-right: 30px;
+        font-size: 30px;
+        position: relative;
+    }
+}
+
+.titlePhone {
+    display: inline-block;
+    margin-bottom: 10px;
+   
+
+    a {
+        text-decoration: none;
+        font-size: 30px;
+        position: relative;
+    }
+}
+
+.containerTwo {
+    border-top: 3px solid black;
+    background-color: #FFFFCC;
+    width: 100%;
+}
+
+.portfolio {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    width: 100%;
+}
+
+.projects {
+    margin: 0px auto;
+    display: block;
+    background-color: black;
+    width: calc(90% - 40px);
+    height: 320px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    color: white;
+}
+
+.projectImage {
+    display: inline-block;
+    height: 240px;
+    min-height: 250px;
+    width: 30%;
+    min-width: 220px;
+    img {
+        height: 320px;
+        max-width: 450px;
+    }
+}
+
+.sampleInfo {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    padding-left: 40px;
+    width: 60%;
+    height: 240px;
+}
+
+.projectName {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-left: 60px;
+}
+
+.projectDescrip {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.tools {
+    font-size: 18px;
+    color: white;
+    margin-left: 60px;
+
+}
+
+.toolsUsed {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-left: 60px;
+}
+
+.links {
+    font-size: 20px;
+    float: right;
+    a {
+        color: white;
+    }
+}
+
+.thirdContainer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+.aboutMe {
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.me {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.aboutMeContainer {
+    margin: 0px auto;
+    width: 80%;
+}
+
+.fourthContainer {
+    padding: 20px;
+    background-repeat: repeat;
+}
+
+.contactMe {
+    display: block;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.email {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.phone {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.socialIcons {
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    margin: 0px auto;
+    background-color: white;
+
+    width: 255px;
+}
+
+.fourthCenter {
+    margin: 0px auto;
+    background-color: white;
+    border: 1px solid gray;
+    width: 500px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+}
+
+@media screen and (max-width: 1350px) {
+
+.projects {
+        display: block;
+        width: 100%;
+        height: 700px;
+   }
+
+.projectName {
+    width: 100%;
+    margin-left: 0px;
+   }
+
+.projectDescrip {
+    width: 95%;
+    margin-left: 0px;
+   }
+
+.sampleInfo {
+    display: block;
+    width: 90%;
+   }
+
+.projectImage {
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    img {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid white;
+        margin-top: 15px;
+    }
+   }
+
+}
+
+@media screen and (max-width: 845px) {
+
+.myNamebackground {
+    display: block;
+    float: right;
+    margin-right: 0px;
+    background-color: white;
+    opacity: 0.4;
+}
+
+.nameTitle {
+    font-size: 55px;
+    }
+
+.projects {
+    display: block;
+    width: 100%;
+    height: 800px;
+    }
+
+.portfolio {
+    width: 100%;
+    }
+
+.projectImage {
+    height: 350px;   
+    width: 100%;
+    text-align: center;
+     img {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid white;
+        margin-top: 20px;
+  
+     }
+        
+}
+
+.sampleInfo {
+    display: block;
+    height: 140px;
+    width: 90%;
+    margin-left: 5px;
+
+    }
+
+.toolsUsed {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 0px;
+    }
+
+.links {
+    font-size: 15px;
+    float: right;
+    margin-right: 50px;
+    }
+
+.containerTwo {
+    width: 100%;
+    }
+
+.projectName {
+    width: 100%;
+    margin-left: 0px;
+    }
+
+.projectDescrip {
+    width: 95%;
+    margin-left: 0px;
+    }
+
+.toolsUsed {
+    color: white;
+    }
+
+.links {
+    a {
+        font-size: 20px;
+    }
+}
+
+.headerimg {
+    display: block;
+    width: 100%;
+
+    }
+
+.sampleinfo {
+    width: 85%;
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+
+
+.projectName {
+    width: 100%;
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    }
+
+.projectDescrip {
+    width: 95%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size: 14px;
+    }
+
+
+
+.toolbarButtons {
+    display: inline-block;
+    position: relative;
+    bottom: 180px;
+    margin-left: 5px;
+    margin-right: 5px;
+        
+    a{
+        font-size: 18px;
+        position: relative;
+
+    }
+}
+
+.toolbarButtonsFirst {
+    margin-left: 10%;
+    }
+
+.toolsUsed {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+        
+    }
+
+.tools {
+    margin-left: 20px;
+    margin-top: 20px;
+
+    }
+
+.links {
+    margin-right: 20px;
+
+    }
+
+.projects {
+    padding: 0px;
+    height: 700px;
+
+    }
+
+.nameTitle {
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    bottom: 190px;
+
+    }
+        
+.projectImage {
+    width: 100%;
+    img {
+    border: 1px solid white;
+    width: 100%;
+    height: 70%;
+    margin-top: 60px;
+        }
+    }
+
+.sampleInfo {
+    width: 85%;
+    padding-left: 15px;
+
+    }
+      
+.titleEmail {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    a {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
+
+.titlePhone {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    a {
+        font-size: 15px;
+    }
+    
+}
+
+.myNamebackground {
+    margin-right: 0px;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.headerimg {
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding-top: 150px;
+}
+
+.portfolio {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+.aboutMe {
+    padding-top: 0px;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.me {
+    font-size: 15px;
+}
+
+.fourthCenter {
+    margin: 0px auto;
+    background-color: white;
+    width: 100%;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+    }
+}
